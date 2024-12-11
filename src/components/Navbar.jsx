@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { logout } from "../store/features/authSlice";
@@ -14,12 +13,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex justify-between items-center p-5 shadow-md">
+    <nav className="flex justify-between items-center px-[20px] py-[5px] shadow-md">
       <Link to="/" className="flex items-center">
         <img
           src="/img/argentBankLogo.png"
           alt="Argent Bank Logo"
-          className="w-[240px]"
+          className="w-[200px]"
         />
       </Link>
 

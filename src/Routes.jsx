@@ -10,10 +10,10 @@ import ProtectedRoute from "./components/ProtectedRoute";
 const AppRoutes = () => {
   return (
     <Router>
-      <div className="flex flex-col h-screen overflow-hidden">
+      <div className="flex flex-col h-screen">
         <Navbar />
 
-        <div className="flex-grow overflow-y-auto">
+        <div className="flex-grow">
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/login" element={<Login />} />

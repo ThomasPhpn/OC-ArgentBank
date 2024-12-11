@@ -27,7 +27,7 @@ const User = () => {
   };
 
   return (
-    <div className="min-h-screen bg-dark-purple flex flex-col">
+    <div className="min-h-full bg-dark-purple flex flex-col">
       <div className="flex-grow bg-dark-purple text-white py-10 px-6 text-center">
         <h1 className="text-3xl font-bold">
           Welcome back{" "}

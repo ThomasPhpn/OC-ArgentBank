@@ -5,12 +5,14 @@ const Features = () => {
   return (
     <section className="flex flex-col md:flex-row">
       {featuresData.map((feature, index) => (
-        <FeatureItem
-          key={index}
-          icon={feature.icon}
-          title={feature.title}
-          description={feature.description}
-        />
+        <div className="flex-1" key={index}>
+          <FeatureItem
+            key={index}
+            icon={feature.icon}
+            title={feature.title}
+            description={feature.description}
+          />
+        </div>
       ))}
     </section>
   );
