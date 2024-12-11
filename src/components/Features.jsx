@@ -7,7 +7,6 @@ const Features = () => {
       {featuresData.map((feature, index) => (
         <div className="flex-1" key={index}>
           <FeatureItem
-            key={index}
             icon={feature.icon}
             title={feature.title}
             description={feature.description}

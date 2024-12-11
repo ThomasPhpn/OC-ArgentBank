@@ -13,7 +13,7 @@ const AppRoutes = () => {
       <div className="flex flex-col h-screen">
         <Navbar />
 
-        <div className="flex-grow">
+        <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Homepage />} />
             <Route path="/login" element={<Login />} />
@@ -26,7 +26,7 @@ const AppRoutes = () => {
               }
             />
           </Routes>
-        </div>
+        </main>
 
         <Footer />
       </div>
